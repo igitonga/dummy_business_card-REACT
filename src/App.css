@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background: #23252C;
+  border-radius: 12px;
 }
 
 .App-logo {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d2d2f;
+  padding: 15px 0;
+}
+
+/* info component */
+.wrapper{
+  color: #fff;
+}
+
+.image_container .image{
+  width: 100%;
+  height: 40vh;
+}
+
+.info_container{
+  text-align: center;
+}
+
+.info_container .name{
+  font-size: 38px;
+}
+
+.info_container .title{
+  font-size: 10px;
+  color: #F3BF99;
+}
+
+.info_container > a{
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.buttons_container{
+  text-align: center;
+  margin-top: 8px;
+}
+
+.buttons_container > button{
+  padding: 5px 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.buttons_container .linkedin{
+  color: #fff;
+  background: rgb(72, 161, 251);
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+.buttons_container .email{
+  margin-right: 5px;
+  letter-spacing: 1px;
+}
+
+/* footer component */
+.footer{
+  background: #000;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.footer > button{
+  margin: 0 5px;
+  background: #9096a0;
+  border-radius: 4px;
+}
+
+/* about component */
+.about, .intrest{
+  padding: 0 25px;
 }
